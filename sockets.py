@@ -92,7 +92,7 @@ def send_all(msg):
 
 def send_all_json(obj):
     send_all( json.dumps(obj) )
-
+# Reference : https://github.com/uofa-cmput404/cmput404-slides/tree/master/examples/WebSocketsExamples
 class Client:
     def __init__(self):
         self.queue = queue.Queue()
